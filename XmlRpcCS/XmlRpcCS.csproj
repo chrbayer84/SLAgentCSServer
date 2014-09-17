@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8657C0B5-7957-439E-AD10-BF2821F12433}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>XmlRpcCS</AssemblyName>
+    <RootNamespace>XmlRpcCS</RootNamespace>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="docs\CF.html" />
+    <Content Include="docs\classes\GoogleClient.html" />
+    <Content Include="docs\classes\ProxyClient.html" />
+    <Content Include="docs\classes\RequestXmlTest.html" />
+    <Content Include="docs\classes\SampleClient.html" />
+    <Content Include="docs\classes\SampleServer.html" />
+    <Content Include="docs\classes\SampleServerWithExpose.html" />
+    <Content Include="docs\classes\SystemObjectClient.html" />
+    <Content Include="docs\classes\XmlRpcCS.html" />
+    <Content Include="docs\docs.xsl" />
+    <Content Include="docs\EXAMPLES.html" />
+    <Content Include="docs\methods.xsl" />
+    <Content Include="docs\MONO.html" />
+    <Content Include="docs\TYPES.html" />
+    <Content Include="docs\XmlRpcSerialization.png" />
+    <Content Include="LICENSE.html" />
+    <Content Include="nant\bin\CollectionGen.dll" />
+    <Content Include="nant\bin\NAnt.Core.dll" />
+    <Content Include="nant\bin\NAnt.Core.xml" />
+    <Content Include="nant\bin\NAnt.Documenter.dll" />
+    <Content Include="nant\bin\NAnt.exe" />
+    <Content Include="nant\bin\NAnt.xml" />
+    <Content Include="nant\bin\NDoc.Core.dll" />
+    <Content Include="nant\bin\NDoc.Documenter.Msdn.dll" />
+    <Content Include="nant\bin\NUnitCore.dll" />
+    <Content Include="nant\bin\NZipLib.dll" />
+    <Content Include="README.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\.cvsignore" />
+    <None Include="docs\classes\.cvsignore" />
+    <None Include="makefile" />
+    <None Include="makefile.nmake" />
+    <None Include="xmlrpccs.build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\nwc\xmlrpc\AssemblyInfo.cs" />
+    <Compile Include="src\nwc\xmlrpc\Logger.cs" />
+    <Compile Include="src\nwc\xmlrpc\SimpleHttpRequest.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcBoxcarRequest.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcClientProxy.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcDeserializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcErrorCodes.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcException.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcExposedAttribute.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcRequest.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcRequestDeserializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcRequestSerializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcResponder.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcResponse.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcResponseDeserializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcResponseSerializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcSerializer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcServer.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcSystemObject.cs" />
+    <Compile Include="src\nwc\xmlrpc\XmlRpcXmlTokens.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
