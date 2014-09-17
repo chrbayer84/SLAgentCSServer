@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libsecondlife", "libsecondlife-0.5.0\libsecondlife\libsecondlife.csproj", "{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcCS", "XmlRpcCS\XmlRpcCS.csproj", "{8657C0B5-7957-439E-AD10-BF2821F12433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "libsecondlife-0.5.0\libsecondlife\examples\TestClient\TestClient.csproj", "{B87682F6-B2D7-4C4D-A529-400C24FD4880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSLAgentServer", "CSSLAgentServer\CSSLAgentServer.csproj", "{2BE97EB6-D059-4D22-B683-5911AC48558A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-docs|Any CPU = Release-docs|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Release-docs|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE97EB6-D059-4D22-B683-5911AC48558A}.Release-docs|Any CPU.Build.0 = Release|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Release-docs|Any CPU.ActiveCfg = Release|Any CPU
+		{8657C0B5-7957-439E-AD10-BF2821F12433}.Release-docs|Any CPU.Build.0 = Release|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Release-docs|Any CPU.ActiveCfg = Release|Any CPU
+		{896ECB1A-38F5-40A9-ACF2-1DA9EB597F18}.Release-docs|Any CPU.Build.0 = Release|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Release-docs|Any CPU.ActiveCfg = Release-docs|Any CPU
+		{B87682F6-B2D7-4C4D-A529-400C24FD4880}.Release-docs|Any CPU.Build.0 = Release-docs|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Release-docs|Any CPU.ActiveCfg = Release-docs|Any CPU
+		{D9CDEDFB-8169-4B03-B57F-0DF638F044EC}.Release-docs|Any CPU.Build.0 = Release-docs|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		name = SLAgentCSServer
+		version = 0.1
+		StartupItem = libsecondlife-0.5.0\libsecondlife\libsecondlife.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

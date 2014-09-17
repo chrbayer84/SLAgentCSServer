@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSSLAgentServer/SLAgentCS.cs" ctype="Workbench">
+    <Files>
+      <File FileName="CSSLAgentServer/SLAgentCS.cs" Line="3" Column="4" />
+      <File FileName="Client/SampleClient.cs" Line="24" Column="4" />
+      <File FileName="CSSLAgentServer/CSSLAgentServer.cs" Line="3" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Client" expanded="True" />
+          <Node name="CSSLAgentServer" expanded="True">
+            <Node name="SLAgentCS.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+</Properties>
